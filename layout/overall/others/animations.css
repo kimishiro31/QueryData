@@ -1,0 +1,132 @@
+	/* FONTES */
+	@font-face {
+	  font-family: masterpiece;
+	  src: url(./fonts/masterpiece.ttf);
+	}
+	
+	@font-face {
+	  font-family: best_in_class;
+	  src: url(./fonts/best_in_class.ttf);
+	}
+	
+	@font-face {
+	  font-family: stoNe;
+	  src: url(./fonts/stoNe.ttf);
+	}
+	
+	@font-face {
+	  font-family: subspace;
+	  src: url(./fonts/subspace.otf);
+	}
+
+	/* BRILHANTE */
+	@keyframes medalGoldBlink {
+	  10% {filter: drop-shadow(0px 0px 300px gold);}
+	  80% {filter: drop-shadow(0px 0px 350px gold);}
+	  100% {filter: drop-shadow(0px 0px 400px gold);}
+	}
+	
+	@keyframes medalBronzeBlink {
+		10% {filter: drop-shadow(0px 0px 300px #da9f65);}
+		80% {filter: drop-shadow(0px 0px 350px #da9f65);}
+		100% {filter: drop-shadow(0px 0px 400px #da9f65);}
+	}
+	@keyframes medalSilverBlink {
+		10% {filter: drop-shadow(0px 0px 300px silver);}
+		80% {filter: drop-shadow(0px 0px 350px silver);}
+		100% {filter: drop-shadow(0px 0px 400px silver);}
+	}
+
+	@keyframes pulse {
+		10% {
+		  -moz-box-shadow: 0 0 0 0 #15AC95;
+		  box-shadow: 0 0 0 0 #15AC95;
+		}
+		80% {
+		  -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+		  box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+		}
+		100% {
+		  -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.3);
+		  box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+		}
+	  }
+	  
+	.line {
+		border-right: 2px solid rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Special Elite", monospace;
+		text-align: center;
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.typing-animation {
+		animation: blinkCursor 500ms steps(40) infinite normal,
+		typing 4s steps(40) 1s normal both;
+	}
+
+	@keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes blinkCursor {
+        from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+          border-right-color: transparent;
+        }
+      }
+
+	/* TRANSPARENT */
+	@keyframes transparent {
+	  0% {opacity: 10%;}
+	  25% {transform: 25%;}
+	  50% {transform: 50%;}
+	  75% {transform: 75%;}
+	  100% {transform: 100%;}
+	}	
+	
+	/* BRILHANTE */
+	@keyframes redBlink {
+	  0% {text-shadow: 0px 0px 2px yellow;}
+	  25% {text-shadow: 0px 0px 4px yellow;}
+	  50% {text-shadow: 0px 0px 6px yellow;}
+	  75% {text-shadow: 0px 0px 10px yellow;}
+	  100% {text-shadow: 0px 0px 15px yellow;}
+	}	
+	 /* TREMIDINHA*/
+	 
+	@keyframes treme-model1 {
+	  0% {margin-left: 0;}
+	  25% {margin-left: 2px; margin-top: 2px}
+	  50% {margin-left: 0;}
+	  75% {margin-left: -2px; margin-top: -2px}
+	  100% {margin-left: 0;}
+	}
+	
+	
+	@keyframes treme-model2 {
+	  0% {margin-left: 0;}
+	  25% {margin-left: 2px; margin-top: 4px; margin-right: 2px; margin-bottom: 4px}
+	  50% {margin-left: 0; margin-top: 0px}
+	  75% {margin-left: -2px; margin-top: -5px; margin-right: -2px; margin-bottom: -4px}
+	  100% {margin-left: 0; margin-top: 0px}
+	}
+	
+	@keyframes rotate {
+	  0% {
+		transform: rotate(0);
+	  }
+	  100% {
+		transform: rotate(360deg);
+	  }
+	}
+

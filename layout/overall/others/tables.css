@@ -1,0 +1,63 @@
+.classTableGeneral {
+    text-align: center;
+    width: 100%;
+}
+
+.classTableGeneral tr th {
+    background-color: black;
+    color: white;
+}
+
+.classTableGeneral tr:nth-child(2n+1):not(.classTableGeneral tr:nth-child(1)) {
+    background-color: rgb(165 161 161 / 90%);
+    color: black;
+}
+
+.classTableGeneral tr:nth-child(2n) {
+    background-color: rgb(165 161 161 / 40%);
+    color: black;
+}
+
+
+.classTableClick tr:not(.classTableGeneral tr:nth-child(1)) {
+    cursor: pointer;
+}
+
+.classTableClick tr:hover:not(.classTableGeneral tr:nth-child(1)) {
+    background-color: rgb(65 61 61 / 80%);
+}
+
+        /*********************************************************
+        **
+        ** adminListQueries.php
+        **
+        **********************************************************/
+.classTableListQueries {
+    text-align: center;
+    width: 100%;
+    border: 1px solid;
+}
+
+
+.classTableListQueries tr th {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.classTableListQueries tr td:nth-child(2n+1) {
+    background-color: rgb(165 161 161 / 90%);
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "FreeMono", Sans-serif;
+}
+
+.classTableListQueries tr td:nth-child(2n) {
+    font-size: 18px;
+}
+
+.classTableListQueries tr td:nth-child(2n):hover {
+    border: 1px solid;
+}
+

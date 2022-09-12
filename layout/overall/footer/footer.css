@@ -1,0 +1,100 @@
+/* OUTROS */
+
+h3 {
+    font-size: 20px;
+    font-family: "Bodoni MT", Sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 2px #3e3939;
+}
+
+/* FIM */ 
+
+footer {
+    position: relative;
+	width: 100%;
+    height: auto;
+    padding: 50px 0px;
+	background-color: #087ea9;
+}
+
+#stamp-content {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+#divFooterFrame:nth-child(1) {
+    margin: 0px 25px 0px 50px;
+}
+
+#divFooterFrame:not(#divFooterFrame:nth-child(1)) {
+    margin: 0px 0px 0px 25px;
+}
+
+#divFooterFrame {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(177 158 158 / 4%);
+    border-radius: 20px;
+    padding: 10px 0px;
+    float: left;
+}
+
+#divFooterFrame:hover {
+    background-color: rgb(177 158 158 / 10%);
+}
+
+#divFooterFrame p {
+    width: 225px;
+    margin: auto;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+#divFooterContent {
+    display: table;
+    width: auto;
+    margin: auto;
+}
+
+#divContactsContainer {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+}
+
+#divContactsContainer a {
+    list-style: none;
+}
+
+#divContactsContainer:hover a:not(#divContactsContainer a:nth-last-child(1)) {
+    position: relative;
+}
+
+#divContactsContainer:hover .classContactOption {
+    margin: 10px 0px;    
+    transition: margin 1s; 
+}
+
+#divContactsContainer a:not(#divContactsContainer a:nth-last-child(1)) {
+    position: absolute;
+}
+
+
+.fa-whatsapp {
+    border: 1px solid #ffffff00;
+    padding: 8px;
+    color: white;
+    background-color: #1dd91d;
+    border-radius: 50%;
+}
+
+.fa-whatsapp:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+}

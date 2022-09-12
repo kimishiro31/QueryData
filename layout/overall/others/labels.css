@@ -1,0 +1,42 @@
+
+/* LABEL TITLE BRANCO */
+.labelTitleContainer {
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 4px #6ccbc2;
+}
+
+/* LABEL TITLE PRETO */
+.labelTitleContainer_2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Bodoni MT", Sans-serif;
+    color: #2f2f30;
+}
+
+.labelTitleInput {
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0px 0px 3px #afa4a4;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.labelPopupTitle {
+    font-size: 20px;
+    font-family: fangsong;
+    font-weight: bold;
+}
+
+.popupErrorTitle {
+    color: #400000;
+}
+.popupSuccessTitle {
+    color: #004015;
+}
+
+.popupWarningTitle {
+    color: #3a4000;
+}

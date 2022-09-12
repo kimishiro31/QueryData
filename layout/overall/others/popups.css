@@ -1,0 +1,85 @@
+    
+#U-boxButton {
+    color: #2c3860;
+    font-weight: bold;
+    font-size: 20px;
+    width: 30px;
+    /* height: 30px; */
+    background-color: unset;
+    border: unset;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#U-boxButton:hover {
+    background-color: #ffc8c8;
+    border: 1px solid #440c0c;
+    cursor: pointer;
+}
+
+#U-boxTitle {
+    text-align: center;
+}
+
+
+.U-title {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#U-borderContent {
+    min-height: 200px;
+    max-height: 380px;
+    min-width: 500px;
+    max-width: 1000px;
+    overflow: auto;
+    word-break: break-all;
+}
+
+
+
+/*CORRIGIDOS*/
+
+#divPopupBody {
+    z-index: 1200;
+    background-color: rgb(31 42 40 / 50%);
+    position: fixed;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#divPopupContainer {
+    position: relative;
+    height: auto;
+    max-height: 300px;
+    overflow: auto;
+    top: 125px;
+    min-width: 500px;
+    max-width: 1000px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 100;
+}
+
+.classErrorContainer {
+    background-color: rgb(255 177 177);
+    border: 1px solid #4e0d0d;
+}
+
+.classSuccessContainer {
+    background-color: rgb(183, 255, 177);
+    border: 1px solid #0d4e21;
+}
+
+.classWarningContainer {
+    background-color: rgb(255, 254, 177);
+    border: 1px solid #4e4d0d;
+}
