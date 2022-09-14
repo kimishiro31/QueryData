@@ -80,7 +80,7 @@ O comando a seguir, fará com que você veja o status do Firewall
 > O comando precisa te retornar da mesma forma que a imagem mostra
 > ![image](https://user-images.githubusercontent.com/63885847/189701682-85581a53-6ee7-46cd-b7f8-f2f6151ea26c.png)
 ```
-sudo ufw enable
+sudo systemctl is-enabled apache2.service
 ```
 
 <h1 id="apache" align="center">
